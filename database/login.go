@@ -109,9 +109,8 @@ func LoginUserToGPCM(pool *pgxpool.Pool, ctx context.Context, userId uint64, gsb
 	} else {
 		var firstName *string
 		var lastName *string
-		var discordId *string
 
-		err := pool.QueryRow(ctx, GetUserProfileID, userId, gsbrcd).Scan(&user.ProfileId, &user.NgDeviceId, &user.Email, &user.UniqueNick, &firstName, &lastName, &user.OpenHost, &discordId, &lastIPAddress, &user.Csnum)
+		err := pool.QueryRow(ctx, GetUserProfileID, userId, gsbrcd).Scan(&user.ProfileId, &user.NgDeviceId, &user.Email, &user.UniqueNick, &firstName, &lastName, &user.OpenHost, &lastIPAddress, &user.Csnum)
 		if err != nil {
 			return User{}, err
 		}
@@ -122,10 +121,6 @@ func LoginUserToGPCM(pool *pgxpool.Pool, ctx context.Context, userId uint64, gsb
 
 		if lastName != nil {
 			user.LastName = *lastName
-		}
-
-		if discordId != nil {
-			user.DiscordID = *discordId
 		}
 
 		validDeviceId := false
@@ -274,8 +269,7 @@ func LoginUserToGameStats(pool *pgxpool.Pool, ctx context.Context, userId uint64
 	var firstName *string
 	var lastName *string
 	var lastIPAddress *string
-	var discordId *string
-	err := pool.QueryRow(ctx, GetUserProfileID, userId, gsbrcd).Scan(&user.ProfileId, &user.NgDeviceId, &user.Email, &user.UniqueNick, &firstName, &lastName, &user.OpenHost, &discordId, &lastIPAddress, &user.Csnum)
+	err := pool.QueryRow(ctx, GetUserProfileID, userId, gsbrcd).Scan(&user.ProfileId, &user.NgDeviceId, &user.Email, &user.UniqueNick, &firstName, &lastName, &user.OpenHost, &lastIPAddress, &user.Csnum)
 	if err != nil {
 		return User{}, err
 	}
@@ -286,10 +280,6 @@ func LoginUserToGameStats(pool *pgxpool.Pool, ctx context.Context, userId uint64
 
 	if lastName != nil {
 		user.LastName = *lastName
-	}
-
-	if discordId != nil {
-		user.DiscordID = *discordId
 	}
 
 	return user, nil
