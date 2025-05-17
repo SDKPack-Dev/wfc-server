@@ -9,14 +9,14 @@ var motdFilepath = "./motd.txt"
 var motd string = ""
 
 func GetMessageOfTheDay() (string, error) {
-	if motd == "" {
-		contents, err := os.ReadFile(motdFilepath)
-		if err != nil {
-			return "", err
-		}
-
-		motd = string(contents)
+	// if motd == "" {
+	contents, err := os.ReadFile(motdFilepath)
+	if err != nil {
+		return "", err
 	}
+
+	motd = string(contents)
+	// }
 
 	return motd, nil
 }
