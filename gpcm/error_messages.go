@@ -5,51 +5,51 @@ var (
 		ErrorCode: 22000,
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
-				"Retro WFCへの ログイン中に\n" +
+				"SDK Pack Onlineへの ログイン中に\n" +
 				"不明なエラー が発生しました\n" +
 				"\n" +
 				"エラーコード： %[1]d",
 			LangEnglish: "" +
 				"An unknown error has occurred\n" +
-				"while logging in to Retro WFC.\n" +
+				"while logging in to SDK Pack Online.\n" +
 				"\n" +
 				"Error Code: %[1]d",
 			LangGerman: "" +
 				"Ein unbekannter Fehler ist beim\n" +
-				"Verbinden mit Retro WFC aufgetreten.\n" +
+				"Verbinden mit SDK Pack Online aufgetreten.\n" +
 				"\n" +
 				"Fehlercode: %[1]d",
 			LangSpanish: "" +
 				"Un error desconocido ha ocurrido\n" +
-				"al conectarse a Retro WFC.\n" +
+				"al conectarse a SDK Pack Online.\n" +
 				"\n" +
 				"Código de error: %[1]d",
 			LangItalian: "" +
 				"È stato riscontrato un errore sconosciuto\n" +
-				"durante l'accesso alla Retro WFC.\n" +
+				"durante l'accesso alla SDK Pack Online.\n" +
 				"\n" +
 				"Codice Errore: %[1]d",
 			LangDutch: "" +
 				"Er is een onbekende fout opgetreden\n" +
-				"tijdens het verbinden met Retro WFC.\n" +
+				"tijdens het verbinden met SDK Pack Online.\n" +
 				"\n" +
 				"Foutcode: %[1]d",
 			LangTradChinese: "" +
-				"載入Retro WFC 時發生錯誤\n" +
+				"載入SDK Pack Online 時發生錯誤\n" +
 				"\n" +
 				"錯誤代碼：%[1]d",
 			LangKorean: "" +
-				"Retro WFC에 연결 도중\n" +
+				"SDK Pack Online에 연결 도중\n" +
 				"알 수 없는 오류가 발생했습니다.\n" +
 				"\n" +
 				"에러 코드: %[1]d",
 			LangCzech: "" +
-				"Při přihlašování k Retro WFC\n" +
+				"Při přihlašování k SDK Pack Online\n" +
 				"došlo k neznámé chybě.\n" +
 				"\n" +
 				"Kód Chyby: %[1]d",
 			LangRussian: "" +
-				"Во время входа в Retro WFC\n" +
+				"Во время входа в SDK Pack Online\n" +
 				"произошла ошибка.\n" +
 				"\n" +
 				"Код ошибки: %[1]d",
@@ -60,22 +60,22 @@ var (
 				"Hata Kodu: %[1]d",
 			LangFinnish: "" +
 				"Tapahtui Tuntematon virhe\n" +
-				"kirjautuessa sisään Retro WFC:hen.\n" +
+				"kirjautuessa sisään SDK Pack Online:hen.\n" +
 				"\n" +
 				"Virhekoodi: %[1]d",
 			LangFrenchEU: "" +
 				"Une erreur inconnue s'est produite\n" +
-				"pendant la connexion à Retro WFC.\n" +
+				"pendant la connexion à SDK Pack Online.\n" +
 				"\n" +
 				"Code Erreur:  %[1]d",
 			LangSpanishEU: "" +
 				"Un error desconocido ha ocurrido\n" +
-				"al conectarse a Retro WFC.\n" +
+				"al conectarse a SDK Pack Online.\n" +
 				"\n" +
 				"Código de error: %[1]d",
 			LangPortugueseEU: "" +
 				"Ocorreu um erro desconhecido\n" +
-				"ao conectar-se com o Retro WFC.\n" +
+				"ao conectar-se com o SDK Pack Online.\n" +
 				"\n" +
 				"Código de Erro: %[1]d",
 		},
@@ -88,90 +88,90 @@ var (
 				"あなたは すでにBANされている\n" +
 				"リークされたNANDを使用しています\n" +
 				"DolphinのデフォルトのNANDにもどしてください\n" +
-				"チケットを discord.gg/retrorewind で切ってください\n" +
+				"チケットを discord.gg/qDJSmyFVHp で切ってください\n" +
 				"エラーコード： %[1]d\n" +
 				"サポート情報： NG%08[2]x",
 			LangEnglish: "" +
 				"You are using a leaked NAND which is already banned.\n" +
 				"Please revert your NAND to the Dolphin Default.\n" +
-				"Ticket on discord.gg/retrorewind for help.\n" +
+				"Ticket on discord.gg/qDJSmyFVHp for help.\n" +
 				"\n" +
 				"Error Code: %[1]d\n" +
 				"Support Info: NG%08[2]x",
 			LangGerman: "" +
 				"Du benutzt eine geleakte NAND, die gebannt wurde.\n" +
 				"Bitte wechsle zurück auf die Standard Dolphin NAND.\n" +
-				"Ticket über discord.gg/retrorewind für Hilfe erstellen.\n" +
+				"Ticket über discord.gg/qDJSmyFVHp für Hilfe erstellen.\n" +
 				"\n" +
 				"Fehlercode: %[1]d\n" +
 				"Support-Info: NG%08[2]x",
 			LangSpanish: "" +
 				"Estás usando una NAND filtrada que ya está baneada.\n" +
 				"Por favor usa la NAND predeterminada por Dolphin.\n" +
-				"Ticket en discord.gg/retrorewind para recibir ayuda.\n" +
+				"Ticket en discord.gg/qDJSmyFVHp para recibir ayuda.\n" +
 				"\n" +
 				"Código de Error: %[1]d\n" +
 				"Información de soporte: NG%08[2]x",
 			LangItalian: "" +
 				"Stai utilizzando una NAND compromessa che è stata già bannata.\n" +
 				"Reimposta la tua NAND a quella di default di Dolphin.\n" +
-				"Fai un Ticket su discord.gg/retrorewind per chiedere aiuto.\n" +
+				"Fai un Ticket su discord.gg/qDJSmyFVHp per chiedere aiuto.\n" +
 				"\n" +
 				"Codice Errore: %[1]d\n" +
 				"Supporto Informativo: NG%08[2]x",
 			LangDutch: "" +
 				"Je gebruikt een publieke NAND die al verbannen is.\n" +
 				"Gebruik de standaard Dolphin-NAND.\n" +
-				"Maak een ticket op discord.gg/retrorewind voor hulp.\n" +
+				"Maak een ticket op discord.gg/qDJSmyFVHp voor hulp.\n" +
 				"\n" +
 				"Foutcode: %[1]d\n" +
 				"Ondersteuningsinformatie: NG%08[2]x",
 			LangKorean: "" +
 				"차단된 유출 NAND를 사용 중입니다.\n" +
 				"Dolphin의 기본 NAND로 되돌리십시오.\n" +
-				"도움이 필요한 경우 discord.gg/retrorewind 에서 티켓을 끊으십시오.\n" +
+				"도움이 필요한 경우 discord.gg/qDJSmyFVHp 에서 티켓을 끊으십시오.\n" +
 				"\n" +
 				"에러 코드: %[1]d\n" +
 				"지원 정보: NG%08[2]x",
 			LangCzech: "" +
 				"Používáš uniklý NAND, který je už zakázán.\n" +
 				"Vrať prosím tvůj NAND do výchozího nastavení Dolphin.\n" +
-				"Vstupenka na discord.gg/retrorewind pro pomoc.\n" +
+				"Vstupenka na discord.gg/qDJSmyFVHp pro pomoc.\n" +
 				"\n" +
 				"Kód Chyby: %[1]d\n" +
 				"Informace o Podpoře: NG%08[2]x",
 			LangRussian: "" +
 				"Вы используете слитую прошивку NAND, которая уже заблокирована.\n" +
 				"Верните настройки NAND на Dolphin по умолчанию.\n" +
-				"За помощью обращайтесь в поддержку discord.gg/retrorewind\n" +
+				"За помощью обращайтесь в поддержку discord.gg/qDJSmyFVHp\n" +
 				"\n" +
 				"Код ошибки: %[1]d\n" +
 				"Информация для поддержки: NG%08[2]x",
 			LangTurkish: "" +
 				"Kullandığınız NAND (sistem dosyaları) sızdırılmış.\n" +
 				"Lütfen NAND'inizi Dolphin varsayılanına geri çevirin.\n" +
-				"Yardım için discord.gg/retrorewind'dan destek alabilirsiniz.\n" +
+				"Yardım için discord.gg/qDJSmyFVHp'dan destek alabilirsiniz.\n" +
 				"\n" +
 				"Hata Kodu: %[1]d\n" +
 				"Destek Bilgisi: NG%08[2]x",
 			LangFrenchEU: "" +
 				"Vous utilisez une NAND publique qui a déjà été bannie.\n" +
 				"Veuillez retirer votre NAND de Dolphin.\n" +
-				"Un ticket peut être fait sur discord.gg/retrorewind si besoin.\n" +
+				"Un ticket peut être fait sur discord.gg/qDJSmyFVHp si besoin.\n" +
 				"\n" +
 				"Code Erreur:  %[1]d\n" +
 				"Information Support: NG%08[2]x",
 			LangSpanishEU: "" +
 				"Estás usando una NAND filtrada que ya está baneada.\n" +
 				"Por favor usa la NAND predeterminada por Dolphin.\n" +
-				"Ticket en discord.gg/retrorewind para recibir ayuda.\n" +
+				"Ticket en discord.gg/qDJSmyFVHp para recibir ayuda.\n" +
 				"\n" +
 				"Código de Error: %[1]d\n" +
 				"Información de soporte: NG%08[2]x",
 			LangPortugueseEU: "" +
 				"Estás usando una NAND filtrada que ya está baneada.\n" +
 				"Por favor usa la NAND predeterminada por Dolphin.\n" +
-				"Ticket no discord.gg/retrorewind para receber ajuda.\n" +
+				"Ticket no discord.gg/qDJSmyFVHp para receber ajuda.\n" +
 				"\n" +
 				"Código de Erro: %[1]d\n" +
 				"Informacão de suporte: NG%08[2]x",
@@ -183,40 +183,40 @@ var (
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
 				"利用きやくに いはんしたため\n" +
-				"Retro WFCから BANされました\n" +
+				"SDK Pack Onlineから BANされました\n" +
 				"\n" +
 				"エラーコード： %[1]d\n" +
 				"サポート情報： NG%08[2]x",
 			LangEnglish: "" +
-				"You are banned from Retro WFC\n" +
+				"You are banned from SDK Pack Online\n" +
 				"due to a violation of the\n" +
 				"Terms of Service.\n" +
 				"\n" +
 				"Error Code: %[1]d\n" +
 				"Support Info: NG%08[2]x",
 			LangGerman: "" +
-				"Du wurdest von Retro WFC\n" +
+				"Du wurdest von SDK Pack Online\n" +
 				"wegen eines Verstoßes der\n" +
 				"Terms of Service gebannt.\n" +
 				"\n" +
 				"Fehlercode: %[1]d\n" +
 				"Support-Info: NG%08[2]x",
 			LangSpanish: "" +
-				"Te han baneado de Retro WFC\n" +
+				"Te han baneado de SDK Pack Online\n" +
 				"debido a una violación de los\n" +
 				"Terminos de Servicio.\n" +
 				"\n" +
 				"Código de Error: %[1]d\n" +
 				"Información de soporte: NG%08[2]x",
 			LangItalian: "" +
-				"Sei stato bannato dalla Retro WFC\n" +
+				"Sei stato bannato dalla SDK Pack Online\n" +
 				"a causa di una violazione dei\n" +
 				"Termini di Servizio.\n" +
 				"\n" +
 				"Codice Errore: %[1]d\n" +
 				"Supporto Informativo: NG%08[2]x",
 			LangDutch: "" +
-				"Je bent verbannen van Retro WFC\n" +
+				"Je bent verbannen van SDK Pack Online\n" +
 				"vanwege een overtreding van de\n" +
 				"gebruiksvoorwaarden.\n" +
 				"\n" +
@@ -224,19 +224,19 @@ var (
 				"Ondersteuningsinformatie: NG%08[2]x",
 			LangTradChinese: "" +
 				"由於違反服務條款\n" +
-				"你禁止使用 Retro WFC\n" +
+				"你禁止使用 SDK Pack Online\n" +
 				"\n" +
 				"錯誤代碼：%[1]d\n" +
 				"支援資訊：NG%08[2]x",
 			LangKorean: "" +
 				"이용약관 위반으로\n" +
-				"Retro WFC 계정이\n" +
+				"SDK Pack Online 계정이\n" +
 				"정지됐습니다.\n" +
 				"\n" +
 				"에러 코드: %[1]d\n" +
 				"지원 정보: NG%08[2]x",
 			LangCzech: "" +
-				"Máš zákaz Retro WFC\n" +
+				"Máš zákaz SDK Pack Online\n" +
 				"z důvodu porušení\n" +
 				"Podmínek Služby.\n" +
 				"\n" +
@@ -251,27 +251,27 @@ var (
 				"Информация для поддержки: NG%08[2]x",
 			LangTurkish: "" +
 				"Hizmet Şartlarını ihlal ettiğinizden\n" +
-				"dolayı Retro WFC'ye erişiminiz\n" +
+				"dolayı SDK Pack Online'ye erişiminiz\n" +
 				"yasaklanmıştır.\n" +
 				"\n" +
 				"Hata Kodu: %[1]d\n" +
 				"Destek Bilgisi: NG%08[2]x",
 			LangFrenchEU: "" +
-				"Vous avez été banni(e) de Retro WFC\n" +
+				"Vous avez été banni(e) de SDK Pack Online\n" +
 				"à cause d'une violation des\n" +
 				"Conditions de Service.\n" +
 				"\n" +
 				"Code Erreur:  %[1]d\n" +
 				"Information Support: NG%08[2]x",
 			LangSpanishEU: "" +
-				"Estás baneado de Retro WFC\n" +
+				"Estás baneado de SDK Pack Online\n" +
 				"debido a una violación de los\n" +
 				"Terminos de Servicio.\n" +
 				"\n" +
 				"Código de Error: %[1]d\n" +
 				"Información de soporte: NG%08[2]x",
 			LangPortugueseEU: "" +
-				"Foste banido do Retro WFC\n" +
+				"Foste banido do SDK Pack Online\n" +
 				"devido a uma violação dos\n" +
 				"Termos e Condições\n" +
 				"\n" +
@@ -285,26 +285,26 @@ var (
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
 				"利用きやくに いはんしたため\n" +
-				"Retro WFCから BANされています\n" +
+				"SDK Pack Onlineから BANされています\n" +
 				"\n" +
 				"エラーコード： %[1]d\n" +
 				"サポート情報： NG%08[2]x",
 			LangEnglish: "" +
-				"You are banned from Retro WFC\n" +
+				"You are banned from SDK Pack Online\n" +
 				"due to a violation of the\n" +
 				"Terms of Service.\n" +
 				"\n" +
 				"Error Code: %[1]d\n" +
 				"Support Info: NG%08[2]x",
 			LangGerman: "" +
-				"Du wurdest von Retro WFC\n" +
+				"Du wurdest von SDK Pack Online\n" +
 				"wegen eines Verstoßes der\n" +
 				"Terms of Service gebannt.\n" +
 				"\n" +
 				"Fehlercode: %[1]d\n" +
 				"Support-Info: NG%08[2]x",
 			LangSpanish: "" +
-				"Te han baneado de Retro WFC\n" +
+				"Te han baneado de SDK Pack Online\n" +
 				"debido a una violación de los\n" +
 				"Terminos de Servicio.\n" +
 				"\n" +
@@ -312,13 +312,13 @@ var (
 				"Información de soporte: NG%08[2]x",
 			LangItalian: "" +
 				"Sei stato bannato dalla\n" +
-				"Retro WFC a causa di una violazione\n" +
+				"SDK Pack Online a causa di una violazione\n" +
 				"dei Termini di Servizio.\n" +
 				"\n" +
 				"Codice Errore: %[1]d\n" +
 				"Supporto Informativo: NG%08[2]x",
 			LangDutch: "" +
-				"Je bent verbannen van Retro WFC\n" +
+				"Je bent verbannen van SDK Pack Online\n" +
 				"vanwege een overtreding van de\n" +
 				"gebruiksvoorwaarden.\n" +
 				"\n" +
@@ -326,19 +326,19 @@ var (
 				"Ondersteuningsinformatie: NG%08[2]x",
 			LangTradChinese: "" +
 				"由於違反服務條款\n" +
-				"你禁止使用 Retro WFC\n" +
+				"你禁止使用 SDK Pack Online\n" +
 				"\n" +
 				"錯誤代碼：%[1]d\n" +
 				"支援資訊：NG%08[2]x",
 			LangKorean: "" +
 				"이용약관 위반으로\n" +
-				"Retro WFC 계정이\n" +
+				"SDK Pack Online 계정이\n" +
 				"정지됐습니다.\n" +
 				"\n" +
 				"에러 코드: %[1]d\n" +
 				"지원 정보: NG%08[2]x",
 			LangCzech: "" +
-				"Máš zákaz Retro WFC\n" +
+				"Máš zákaz SDK Pack Online\n" +
 				"z důvodu porušení\n" +
 				"Podmínek Služby.\n" +
 				"\n" +
@@ -346,34 +346,34 @@ var (
 				"Informace o Podpoře: NG%08[2]x",
 			LangRussian: "" +
 				"Отныне вам запрещено играть\n" +
-				"в Retro WFC из-за нарушения\n" +
+				"в SDK Pack Online из-за нарушения\n" +
 				"условий использования сервиса.\n" +
 				"\n" +
 				"Код ошибки: %[1]d\n" +
 				"Информация для поддержки: NG%08[2]x",
 			LangTurkish: "" +
 				"Hizmet Şartlarını ihlal ettiğinizden\n" +
-				"dolayı Retro WFC'ye erişiminiz\n" +
+				"dolayı SDK Pack Online'ye erişiminiz\n" +
 				"yasaklanmıştır.\n" +
 				"\n" +
 				"Hata Kodu: %[1]d\n" +
 				"Destek Bilgisi: NG%08[2]x",
 			LangFrenchEU: "" +
-				"Vous avez été banni(e) de Retro WFC\n" +
+				"Vous avez été banni(e) de SDK Pack Online\n" +
 				"à cause d'une violation des\n" +
 				"Conditions de Service.\n" +
 				"\n" +
 				"Code Erreur:  %[1]d\n" +
 				"Information Support: NG%08[2]x",
 			LangSpanishEU: "" +
-				"Estás baneado de Retro WFC\n" +
+				"Estás baneado de SDK Pack Online\n" +
 				"debido a una violación de los\n" +
 				"Terminos de Servicio.\n" +
 				"\n" +
 				"Código de Error: %[1]d\n" +
 				"Información de soporte: NG%08[2]x",
 			LangPortugueseEU: "" +
-				"Foste banido do Retro WFC\n" +
+				"Foste banido do SDK Pack Online\n" +
 				"devido a uma violação dos\n" +
 				"Termos e Condições\n" +
 				"\n" +
@@ -386,7 +386,7 @@ var (
 		ErrorCode: 22003,
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
-				"Retro WFCの ルールにいはんしたため\n" +
+				"SDK Pack Onlineの ルールにいはんしたため\n" +
 				"オンライン対戦から BANされました\n" +
 				"\n" +
 				"エラーコード： %[1]d\n" +
@@ -394,46 +394,46 @@ var (
 			LangEnglish: "" +
 				"You are banned from public\n" +
 				"matches due to a violation\n" +
-				"of the Retro WFC Rules.\n" +
+				"of the SDK Pack Online Rules.\n" +
 				"\n" +
 				"Error Code: %[1]d\n" +
 				"Support Info: NG%08[2]x",
 			LangGerman: "" +
 				"Du wurdest von öffentl. Räumen\n" +
 				"wegen eines Verstoßes der\n" +
-				"Retro WFC Regeln gebannt.\n" +
+				"SDK Pack Online Regeln gebannt.\n" +
 				"\n" +
 				"Fehlercode: %[1]d\n" +
 				"Support-Info: NG%08[2]x",
 			LangSpanish: "" +
 				"Te han baneado de partidas públicas\n" +
 				"debido a una violación de las\n" +
-				"reglas de Retro WFC.\n" +
+				"reglas de SDK Pack Online.\n" +
 				"\n" +
 				"Código de Error: %[1]d\n" +
 				"Información de soporte: NG%08[2]x",
 			LangItalian: "" +
 				"Sei stato bannato dalle corse\n" +
 				"pubbliche a causa di una violazione\n" +
-				"delle regole della Retro WFC.\n" +
+				"delle regole della SDK Pack Online.\n" +
 				"\n" +
 				"Codice Errore: %[1]d\n" +
 				"Supporto Informativo: NG%08[2]x",
 			LangDutch: "" +
 				"Je bent verbannen van openbare\n" +
 				"wedstrijden vanwege een overtreding\n" +
-				"van de Retro WFC-regels.\n" +
+				"van de SDK Pack Online-regels.\n" +
 				"\n" +
 				"Foutcode: %[1]d\n" +
 				"Ondersteuningsinformatie: NG%08[2]x",
 			LangTradChinese: "" +
-				"由於你違反 Retro WFC 規則\n" +
+				"由於你違反 SDK Pack Online 規則\n" +
 				"你已被禁止參加公開遊戲\n" +
 				"\n" +
 				"錯誤代碼：%[1]d\n" +
 				"支援資訊：NG%08[2]x",
 			LangKorean: "" +
-				"Retro WFC 규정 위반으로\n" +
+				"SDK Pack Online 규정 위반으로\n" +
 				"공개 경기에서 차단됐습니다.\n" +
 				"\n" +
 				"에러 코드: %[1]d\n" +
@@ -441,19 +441,19 @@ var (
 			LangCzech: "" +
 				"Máš zákaz veřejných\n" +
 				"zápasů z důvodu porušení\n" +
-				"pravidel Retro WFC.\n" +
+				"pravidel SDK Pack Online.\n" +
 				"\n" +
 				"Kód Chyby: %[1]d\n" +
 				"Informace o Podpoře: NG%08[2]x",
 			LangRussian: "" +
 				"Вам запрещено участвовать\n" +
 				"в публичных играх из-за\n" +
-				"нарушения правил Retro WFC.\n" +
+				"нарушения правил SDK Pack Online.\n" +
 				"\n" +
 				"Код ошибки: %[1]d\n" +
 				"Информация для поддержки: NG%08[2]x",
 			LangTurkish: "" +
-				"Retro WFC kurallarını ihlal\n" +
+				"SDK Pack Online kurallarını ihlal\n" +
 				"ettiğinizden dolayı herkese\n" +
 				"açık yarışlara erişiminiz yasaklanmıştır.\n" +
 				"\n" +
@@ -462,14 +462,14 @@ var (
 			LangFrenchEU: "" +
 				"Vous avez été banni(e) des matchs\n" +
 				"public à cause d'un violation d'une\n" +
-				"des règles de Retro WFC.\n" +
+				"des règles de SDK Pack Online.\n" +
 				"\n" +
 				"Code Erreur:  %[1]d\n" +
 				"Information Support: NG%08[2]x",
 			LangSpanishEU: "" +
 				"Estás baneado de partidas públicas\n" +
 				"debido a una violación de las\n" +
-				"reglas de Retro WFC.\n" +
+				"reglas de SDK Pack Online.\n" +
 				"\n" +
 				"Código de Error: %[1]d\n" +
 				"Información de soporte: NG%08[2]x",
@@ -487,7 +487,7 @@ var (
 		ErrorCode: 22003,
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
-				"Retro WFCの ルールにいはんしたため\n" +
+				"SDK Pack Onlineの ルールにいはんしたため\n" +
 				"オンライン対戦から BANされています\n" +
 				"\n" +
 				"エラーコード： %[1]d\n" +
@@ -495,46 +495,46 @@ var (
 			LangEnglish: "" +
 				"You have been banned from public\n" +
 				"matches due to a violation\n" +
-				"of the Retro WFC Rules.\n" +
+				"of the SDK Pack Online Rules.\n" +
 				"\n" +
 				"Error Code: %[1]d\n" +
 				"Support Info: NG%08[2]x",
 			LangGerman: "" +
 				"Du wurdest von öffentl. Räumen\n" +
 				"wegen eines Verstoßes der\n" +
-				"Retro WFC Regeln gebannt.\n" +
+				"SDK Pack Online Regeln gebannt.\n" +
 				"\n" +
 				"Fehlercode: %[1]d\n" +
 				"Support-Info: NG%08[2]x,",
 			LangSpanish: "" +
 				"Te han baneado de partidas públicas\n" +
 				"debido a una violación de las\n" +
-				"reglas de Retro WFC.\n" +
+				"reglas de SDK Pack Online.\n" +
 				"\n" +
 				"Código de Error: %[1]d\n" +
 				"Información de soporte: NG%08[2]x",
 			LangItalian: "" +
 				"Sei stato bannato dalle corse\n" +
 				"pubbliche a causa di una violazione\n" +
-				"delle regole della Retro WFC.\n" +
+				"delle regole della SDK Pack Online.\n" +
 				"\n" +
 				"Codice Errore: %[1]d\n" +
 				"Supporto Informativo: NG%08[2]x",
 			LangDutch: "" +
 				"Je bent verbannen van openbare\n" +
 				"wedstrijden vanwege een overtreding\n" +
-				"van de Retro WFC-regels.\n" +
+				"van de SDK Pack Online-regels.\n" +
 				"\n" +
 				"Foutcode: %[1]d\n" +
 				"Ondersteuningsinformatie: NG%08[2]x",
 			LangTradChinese: "" +
-				"由於你違反 Retro WFC 規則\n" +
+				"由於你違反 SDK Pack Online 規則\n" +
 				"你已無法參加公開遊戲\n" +
 				"\n" +
 				"錯誤代碼：%[1]d\n" +
 				"支援資訊：NG%08[2]x",
 			LangKorean: "" +
-				"Retro WFC 규정 위반으로\n" +
+				"SDK Pack Online 규정 위반으로\n" +
 				"공개 경기에서 차단됐습니다.\n" +
 				"\n" +
 				"에러 코드: %[1]d\n" +
@@ -542,19 +542,19 @@ var (
 			LangCzech: "" +
 				"Máš zákaz veřejných\n" +
 				"zápasů z důvodu porušení\n" +
-				"pravidel Retro WFC.\n" +
+				"pravidel SDK Pack Online.\n" +
 				"\n" +
 				"Kód Chyby: %[1]d\n" +
 				"Informace o Podpoře: NG%08[2]x",
 			LangRussian: "" +
 				"Отныне вам запрещено участвовать\n" +
 				"в публичных играх из-за нарушения\n" +
-				"правил Retro WFC.\n" +
+				"правил SDK Pack Online.\n" +
 				"\n" +
 				"Код ошибки: %[1]d\n" +
 				"Информация для поддержки: NG%08[2]x",
 			LangTurkish: "" +
-				"Retro WFC kurallarını ihlal\n" +
+				"SDK Pack Online kurallarını ihlal\n" +
 				"ettiğinizden dolayı herkese\n" +
 				"açık yarışlara erişiminiz yasaklanmıştır.\n" +
 				"\n" +
@@ -563,14 +563,14 @@ var (
 			LangFrenchEU: "" +
 				"Vous avez été banni(e) des matchs\n" +
 				"publics à cause d'un violation d'une\n" +
-				"des règles de Retro WFC.\n" +
+				"des règles de SDK Pack Online.\n" +
 				"\n" +
 				"Code Erreur:  %[1]d\n" +
 				"Information Support: NG%08[2]x",
 			LangSpanishEU: "" +
 				"Estás baneado de partidas públicas\n" +
 				"debido a una violación de las\n" +
-				"reglas de Retro WFC.\n" +
+				"reglas de SDK Pack Online.\n" +
 				"\n" +
 				"Código de Error: %[1]d\n" +
 				"Información de soporte: NG%08[2]x",
@@ -746,66 +746,66 @@ var (
 		ErrorCode: 22004,
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
-				"Retro WFCから キックされました\n" +
+				"SDK Pack Onlineから キックされました\n" +
 				"\n" +
 				"エラーコード： %[1]d",
 			LangEnglish: "" +
 				"You have been kicked from\n" +
-				"Retro WFC.\n" +
+				"SDK Pack Online.\n" +
 				"\n" +
 				"Error Code: %[1]d",
 			LangGerman: "" +
-				"Du wurdest aus Retro WFC\n" +
+				"Du wurdest aus SDK Pack Online\n" +
 				"gekickt.\n" +
 				"\n" +
 				"Fehlercode: %[1]d",
 			LangSpanish: "" +
-				"Te han expulsado de Retro WFC.\n" +
+				"Te han expulsado de SDK Pack Online.\n" +
 				"\n" +
 				"Código de Error: %[1]d",
 			LangItalian: "" +
 				"Sei stato espulso\n" +
-				"dalla Retro WFC.\n" +
+				"dalla SDK Pack Online.\n" +
 				"\n" +
 				"Codice Errore: %[1]d",
 			LangDutch: "" +
-				"Je bent uit Retro WFC\n" +
+				"Je bent uit SDK Pack Online\n" +
 				"geschopt.\n" +
 				"\n" +
 				"Foutcode: %[1]d",
 			LangTradChinese: "" +
-				"您已被踢出 Retro WFC\n" +
+				"您已被踢出 SDK Pack Online\n" +
 				"\n" +
 				"錯誤代碼：%[1]d",
 			LangKorean: "" +
-				"Retro WFC에서 추방됐습니다.\n" +
+				"SDK Pack Online에서 추방됐습니다.\n" +
 				"\n" +
 				"에러 코드: %[1]d",
 			LangCzech: "" +
 				"Byl jsi vyhozen z\n" +
-				"Retro WFC.\n" +
+				"SDK Pack Online.\n" +
 				"\n" +
 				"Kód Chyby: %[1]d",
 			LangRussian: "" +
-				"Вас выгнали из Retro WFC.\n" +
+				"Вас выгнали из SDK Pack Online.\n" +
 				"\n" +
 				"Код ошибки: %[1]d",
 			LangTurkish: "" +
-				"Retro WFC'den atıldınız.\n" +
+				"SDK Pack Online'den atıldınız.\n" +
 				"\n" +
 				"Hata Kodu: %[1]d",
 			LangFrenchEU: "" +
 				"Vous avez été expulsé de\n" +
-				"Retro WFC.\n" +
+				"SDK Pack Online.\n" +
 				"\n" +
 				"Code Erreur: %[1]d",
 			LangSpanishEU: "" +
-				"Te han expulsado de Retro WFC.\n" +
+				"Te han expulsado de SDK Pack Online.\n" +
 				"\n" +
 				"Código de Error: %[1]d",
 			LangPortugueseEU: "" +
 				"Foste expulso do\n" +
-				"Retro WFC.\n" +
+				"SDK Pack Online.\n" +
 				"\n" +
 				"Código de Erro: %[1]d",
 		},
@@ -815,71 +815,71 @@ var (
 		ErrorCode: 22004,
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
-				"Retro WFCの モデレーターから\n" +
+				"SDK Pack Onlineの モデレーターから\n" +
 				"キックされました\n" +
 				"\n" +
 				"エラーコード： %[1]d",
 			LangEnglish: "" +
 				"You have been kicked from\n" +
-				"Retro WFC by a moderator.\n" +
+				"SDK Pack Online by a moderator.\n" +
 				"\n" +
 				"Error Code: %[1]d",
 			LangGerman: "" +
 				"Du wurdest von einem Moderator\n" +
-				"aus Retro WFC gekickt.\n" +
+				"aus SDK Pack Online gekickt.\n" +
 				"\n" +
 				"Fehlercode: %[1]d",
 			LangSpanish: "" +
 				"Un moderador te ha\n" +
-				"expulsado de Retro WFC.\n" +
+				"expulsado de SDK Pack Online.\n" +
 				"\n" +
 				"Código de Error: %[1]d",
 			LangItalian: "" +
 				"Sei stato espulso dalla\n" +
-				"Retro WFC da un moderatore.\n" +
+				"SDK Pack Online da un moderatore.\n" +
 				"\n" +
 				"Codice Errore: %[1]d",
 			LangDutch: "" +
-				"Je bent uit Retro WFC\n" +
+				"Je bent uit SDK Pack Online\n" +
 				"geschopt door een moderator.\n" +
 				"\n" +
 				"Foutcode: %[1]d",
 			LangTradChinese: "" +
-				"您已被房主踢出 Retro WFC\n" +
+				"您已被房主踢出 SDK Pack Online\n" +
 				"\n" +
 				"錯誤代碼：%[1]d",
 			LangKorean: "" +
-				"관리자에 의해 Retro WFC에서\n" +
+				"관리자에 의해 SDK Pack Online에서\n" +
 				"추방됐습니다.\n" +
 				"\n" +
 				"에러 코드: %[1]d",
 			LangCzech: "" +
 				"Byl jsi vyhozen z\n" +
-				"Retro WFC moderátorem.\n" +
+				"SDK Pack Online moderátorem.\n" +
 				"\n" +
 				"Kód Chyby: %[1]d",
 			LangRussian: "" +
 				"Модератор выгнал вас\n" +
-				"из Retro WFC.\n" +
+				"из SDK Pack Online.\n" +
 				"\n" +
 				"Код ошибки: %[1]d",
 			LangTurkish: "" +
 				"Bir moderatör tarafından\n" +
-				"Retro WFC'den atıldınız.\n" +
+				"SDK Pack Online'den atıldınız.\n" +
 				"\n" +
 				"Hata Kodu: %[1]d",
 			LangFrenchEU: "" +
 				"Vous avez été expulsé de\n" +
-				"Retro WFC par un modérateur.\n" +
+				"SDK Pack Online par un modérateur.\n" +
 				"\n" +
 				"Code Erreur: %[1]d",
 			LangSpanishEU: "" +
 				"Un moderador te ha\n" +
-				"expulsado de Retro WFC.\n" +
+				"expulsado de SDK Pack Online.\n" +
 				"\n" +
 				"Código de Error: %[1]d",
 			LangPortugueseEU: "" +
-				"Foste expulso do Retro WFC\n" +
+				"Foste expulso do SDK Pack Online\n" +
 				"por um moderador.\n" +
 				"\n" +
 				"Código de Erro: %[1]d",
@@ -963,41 +963,41 @@ var (
 		ErrorCode: 22004,
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
-				"Retro WFCから キックされました\n" +
+				"SDK Pack Onlineから キックされました\n" +
 				"りゆう： %[3]s\n" +
 				"エラーコード： %[1]d",
 			LangEnglish: "" +
 				"You have been kicked from\n" +
-				"Retro WFC.\n" +
+				"SDK Pack Online.\n" +
 				"Reason: %[3]s\n" +
 				"Error Code: %[1]d",
 			LangGerman: "" +
-				"Du wurdest aus Retro WFC\n" +
+				"Du wurdest aus SDK Pack Online\n" +
 				"gekickt.\n" +
 				"Grund: %[3]s\n" +
 				"Fehlercode: %[1]d,",
 			LangSpanish: "" +
-				"Te han expulsado de Retro WFC.\n" +
+				"Te han expulsado de SDK Pack Online.\n" +
 				"Motivo: %[3]s\n" +
 				"\n" +
 				"Código de Error: %[1]d",
 			LangItalian: "" +
 				"Sei stato espulso\n" +
-				"dalla Retro WFC.\n" +
+				"dalla SDK Pack Online.\n" +
 				"Motivo: %[3]s\n" +
 				"Codice Errore: %[1]d",
 			LangDutch: "" +
-				"Je bent uit Retro WFC\n" +
+				"Je bent uit SDK Pack Online\n" +
 				"geschopt.\n" +
 				"Reden: %[3]s\n" +
 				"Foutcode: %[1]d",
 			LangTradChinese: "" +
-				"您已被踢出 Retro WFC\n" +
+				"您已被踢出 SDK Pack Online\n" +
 				"\n" +
 				"原因：%[3]s\n" +
 				"錯誤代碼：%[1]d",
 			LangKorean: "" +
-				"Retro WFC에서 추방됐습니다.\n" +
+				"SDK Pack Online에서 추방됐습니다.\n" +
 				"\n" +
 				"사유: %[3]s\n" +
 				"에러 코드: %[1]d",
@@ -1007,28 +1007,28 @@ var (
 				"Kód Chyby: %[1]d\n" +
 				"Informace o Podpoře: NG%08[2]x",
 			LangRussian: "" +
-				"Вас выгнали из Retro WFC.\n" +
+				"Вас выгнали из SDK Pack Online.\n" +
 				"\n" +
 				"Причина: %[3]s\n" +
 				"Код ошибки: %[1]d",
 			LangTurkish: "" +
-				"Retro WFC'den atıldınız.\n" +
+				"SDK Pack Online'den atıldınız.\n" +
 				"\n" +
 				"Sebep: %[3]s\n" +
 				"Hata Kodu: %[1]d",
 			LangFrenchEU: "" +
 				"Vous avez été expulsé de\n" +
-				"Retro WFC.\n" +
+				"SDK Pack Online.\n" +
 				"Raison: %[3]s\n" +
 				"Error Code: %[1]d",
 			LangSpanishEU: "" +
-				"Te han expulsado de Retro WFC.\n" +
+				"Te han expulsado de SDK Pack Online.\n" +
 				"Motivo: %[3]s\n" +
 				"\n" +
 				"Código de Error: %[1]d",
 			LangPortugueseEU: "" +
 				"Foste expulso do\n" +
-				"Retro WFC.\n" +
+				"SDK Pack Online.\n" +
 				"Razão: %[3]s\n" +
 				"Código de Erro: %[1]d",
 		},
@@ -1388,72 +1388,72 @@ var (
 		ErrorCode: 22008,
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
-				"Retro WFCの ペイロードがむこうです\n" +
+				"SDK Pack Onlineの ペイロードがむこうです\n" +
 				"ゲームを 再起動してください\n" +
 				"\n" +
 				"エラーコード： %[1]d",
 			LangEnglish: "" +
-				"The Retro WFC payload is invalid.\n" +
+				"The SDK Pack Online payload is invalid.\n" +
 				"Try restarting your game.\n" +
 				"\n" +
 				"Error Code: %[1]d",
 			LangGerman: "" +
-				"Die Retro WFC Payload ist ungültig.\n" +
+				"Die SDK Pack Online Payload ist ungültig.\n" +
 				"Versuche das Spiel neu zu starten.\n" +
 				"\n" +
 				"Fehlercode: %[1]d",
 			LangSpanish: "" +
-				"Retro WFC no cargó correctamente\n" +
+				"SDK Pack Online no cargó correctamente\n" +
 				"Intente reiniciar su juego.\n" +
 				"\n" +
 				"Código de Error: %[1]d",
 			LangItalian: "" +
-				"Il payload della Retro WFC non è valido.\n" +
+				"Il payload della SDK Pack Online non è valido.\n" +
 				"Prova a riavviare il gioco.\n" +
 				"\n" +
 				"Codice Errore: %[1]d",
 			LangDutch: "" +
-				"De Retro WFC-payload is ongeldig.\n" +
+				"De SDK Pack Online-payload is ongeldig.\n" +
 				"Probeer het spel opnieuw op te starten.\n" +
 				"\n" +
 				"Foutcode: %[1]d",
 			LangTradChinese: "" +
-				"Retro WFC 負載失效\n" +
+				"SDK Pack Online 負載失效\n" +
 				"請嘗試重新啟動遊戲\n" +
 				"\n" +
 				"錯誤代碼：%[1]d",
 			LangKorean: "" +
-				"Retro WFC 페이로드가 잘못됐습니다.\n" +
+				"SDK Pack Online 페이로드가 잘못됐습니다.\n" +
 				"게임을 재시작 하십시오.\n" +
 				"\n" +
 				"에러 코드: %[1]d",
 			LangCzech: "" +
-				"Datový obsah Retro WFC je neplatné.\n" +
+				"Datový obsah SDK Pack Online je neplatné.\n" +
 				"Zkus restartovat hru.\n" +
 				"\n" +
 				"Kód Chyby: %[1]d",
 			LangRussian: "" +
 				"Запущен некорректный пейлоад\n" +
-				"Retro WFC. Перезапустите игру.\n" +
+				"SDK Pack Online. Перезапустите игру.\n" +
 				"\n" +
 				"Код ошибки: %[1]d",
 			LangTurkish: "" +
-				"Retro WFC payloud'u geçerli değil.\n" +
+				"SDK Pack Online payloud'u geçerli değil.\n" +
 				"Oyunu yeniden başlatmayı deneyin.\n" +
 				"\n" +
 				"Hata Kodu: %[1]d",
 			LangFrenchEU: "" +
-				"Le payload Retro WFC est invalide.\n" +
+				"Le payload SDK Pack Online est invalide.\n" +
 				"Veuillez redémarrer votre jeu.\n" +
 				"\n" +
 				"Code Erreur: %[1]d",
 			LangSpanishEU: "" +
-				"Retro WFC no cargó correctamente\n" +
+				"SDK Pack Online no cargó correctamente\n" +
 				"Intente reiniciar su juego.\n" +
 				"\n" +
 				"Código de Error: %[1]d",
 			LangPortugueseEU: "" +
-				"O RETRO WFC não carregou corretamente.\n" +
+				"O SDK Pack Online não carregou corretamente.\n" +
 				"Tenta reiniciar o jogo.\n" +
 				"\n" +
 				"Código de Erro: %[1]d",
@@ -1465,17 +1465,17 @@ var (
 		MessageRMC: map[byte]string{
 			LangJapanese: "" +
 				"VRまたはBRの値が むこうなため\n" +
-				"Retro WFCから 切断されました\n" +
+				"SDK Pack Onlineから 切断されました\n" +
 				"\n" +
 				"エラーコード： %[1]d",
 			LangEnglish: "" +
 				"You were disconnected from\n" +
-				"Retro WFC due to an invalid\n" +
+				"SDK Pack Online due to an invalid\n" +
 				"VR or BR value.\n" +
 				"\n" +
 				"Error Code: %[1]d",
 			LangGerman: "" +
-				"Deine Verbindung zu Retro WFC\n" +
+				"Deine Verbindung zu SDK Pack Online\n" +
 				"durch einen ungültigen VR oder BR\n" +
 				"Wert beendet.\n" +
 				"\n" +
@@ -1486,47 +1486,47 @@ var (
 				"\n" +
 				"Código de Error: %[1]d",
 			LangItalian: "" +
-				"Sei stato disconnesso dalla Retro WFC\n" +
+				"Sei stato disconnesso dalla SDK Pack Online\n" +
 				"a causa di un valore non valido\n" +
 				"di punti corsa o punti battaglia.\n" +
 				"\n" +
 				"Codice Errore: %[1]d",
 			LangDutch: "" +
-				"Je verbinding met Retro WFC is verbroken\n" +
+				"Je verbinding met SDK Pack Online is verbroken\n" +
 				"vanwege een ongeldige rp- of gp-waarde.\n" +
 				"\n" +
 				"Foutcode: %[1]d",
 			LangTradChinese: "" +
-				"你與 Retro WFC 中斷連線\n" +
+				"你與 SDK Pack Online 中斷連線\n" +
 				"VR 或 BR 不會計算\n" +
 				"\n" +
 				"錯誤代碼：%[1]d",
 			LangKorean: "" +
 				"잘못된 VR 또는 BR 값으로 인해\n" +
-				"Retro WFC 연결이 끊어졌습니다.\n" +
+				"SDK Pack Online 연결이 끊어졌습니다.\n" +
 				"\n" +
 				"에러 코드: %[1]d",
 			LangCzech: "" +
-				"Byl jsi odpojen od Retro WFC\n" +
+				"Byl jsi odpojen od SDK Pack Online\n" +
 				"z důvodu neplatné hodnoty\n" +
 				"ZH nebo BH.\n" +
 				"\n" +
 				"Kód Chyby: %[1]d",
 			LangRussian: "" +
-				"Вас отключили от Retro WFC\n" +
+				"Вас отключили от SDK Pack Online\n" +
 				"из-за некорректного значения\n" +
 				"ГР или БР.\n" +
 				"\n" +
 				"Код ошибки: %[1]d",
 			LangTurkish: "" +
 				"Hatalı bir KP veya SP\n" +
-				"değerinden dolayı Retro WFC'ye\n" +
+				"değerinden dolayı SDK Pack Online'ye\n" +
 				"bağlantınız kesildi.\n" +
 				"\n" +
 				"Hata Kodu: %[1]d",
 			LangFrenchEU: "" +
 				"Vous avez été déconnecté de\n" +
-				"Retro WFC à cause d'une valeur invalide\n" +
+				"SDK Pack Online à cause d'une valeur invalide\n" +
 				"de Points Course ou Points Bataille.\n" +
 				"\n" +
 				"Code Erreur: %[1]d",
@@ -1536,7 +1536,7 @@ var (
 				"\n" +
 				"Código de Error: %[1]d",
 			LangPortugueseEU: "" +
-				"Foste desconectado do RETRO WFC\n" +
+				"Foste desconectado do SDK Pack Online\n" +
 				"devido a um valor\n" +
 				"CR ou CB inválido.\n" +
 				"\n" +
